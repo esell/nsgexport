@@ -4,7 +4,7 @@ Currently exporting an ARM template from Azure will fail when you try to export 
 
 # Requirements
 
-* An AAD application account. You need this in order to authenticate against the API
+* An AAD application account with subscription read access. You need this in order to authenticate against the API
 
 
 # Sample usage

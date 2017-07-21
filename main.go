@@ -46,6 +46,7 @@ func httpReq(authToken string, method string, URL string, postData []byte, isJso
 		log.Println("Error with request for "+URL+": ", err)
 		return &http.Response{}, err
 	}
+
 	return resp, nil
 }
 
@@ -67,6 +68,7 @@ func getAuthToken(clientID, clientSecret, tenantName string) (AuthTokenResp, err
 	if err != nil {
 		log.Println("Error unmarshaling auth response: ", err)
 	}
+
 	return authResp, nil
 }
 
