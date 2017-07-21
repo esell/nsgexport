@@ -1,0 +1,7 @@
+{
+    "subscription": "your sub id",
+    "clientid": "AAD app ID",
+    "clientsecret": "AAD app secret",
+    "tenantname": "your tenant name",
+    "resourcegroup": "rg to poll"
+}
