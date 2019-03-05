@@ -1,6 +1,6 @@
 # NSGExport
 
-Currently exporting an ARM template from Azure will fail when you try to export NSGs. The solution is to hit the API and then create an ARM template based on that data.
+Export just an NSG from an Azure resource group
 
 # Requirements
 
@@ -9,7 +9,7 @@ Currently exporting an ARM template from Azure will fail when you try to export 
 
 # Sample usage
 
-First create a `conf.json` file that lives in the same directoy as the nsgexport binary. From their plugin the values you'll be using.
+First create a `conf.json` file that lives in the same directoy as the nsgexport binary. From their plug in the values you'll be using.
 
 `nsgexport > template.json`
 
