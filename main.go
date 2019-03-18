@@ -74,7 +74,7 @@ func getAuthToken(clientID, clientSecret, tenantName string) (AuthTokenResp, err
 
 func listNSGs() {
 	data := url.Values{}
-	data.Set("api-version", "2016-09-01")
+	data.Set("api-version", "2018-11-01")
 	authResp, err := getAuthToken(parsedconfig.ClientID, parsedconfig.ClientSecret, parsedconfig.TenantName)
 	if err != nil {
 		log.Println("error getting auth token: ", err)

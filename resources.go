@@ -66,7 +66,7 @@ func (n NSG) Transform() TemplateNSG {
 	formattedNSG := TemplateNSG{
 		Location:   n.Location,
 		Name:       n.Name,
-		APIVersion: "2016-03-30",
+		APIVersion: "2018-11-01",
 		Type:       "Microsoft.Network/networkSecurityGroups",
 		Properties: n.Properties,
 	}
